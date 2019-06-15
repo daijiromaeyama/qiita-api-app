@@ -1,4 +1,4 @@
-# my-first-nuxt-app
+# qiita-api-app
 
 > Nuxt.js project
 
