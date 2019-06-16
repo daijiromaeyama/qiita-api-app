@@ -29,6 +29,7 @@ export default {
     if (store.getters['items'].length) {
       return
     }
+    // fetchItemsが完了するのを待機
     await store.dispatch('fetchItems')
   },
   computed: {
